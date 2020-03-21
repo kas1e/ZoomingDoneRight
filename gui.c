@@ -253,6 +253,7 @@ BOOL controlIDCMP(VOID)
 						else LensFlag = TRUE;
 					break;
 				}
+				break;
 			case IDCMP_EXTENDEDMOUSE:
 				switch(code)
 				{
@@ -274,6 +275,7 @@ BOOL controlIDCMP(VOID)
 					}
 					break;
 				}
+				break;
 			case IDCMP_MOUSEBUTTONS:
 				switch(code)
 				{
